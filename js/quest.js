@@ -1,4 +1,4 @@
 //
-function btn_pushed():void{
-	
+function btn_pushed(){
+	$("#todomenu").css("visibility","visible")
 }
