@@ -1,0 +1,24 @@
+/*
+Copyright 2009 sho shirasaka.
+http://ameblo.jp/design-agent/
+*/
+*{margin:0;padding:0;}
+body{background:#000000;}
+a{outline:none;}
+li{list-style-type:none;}
+#todomenu{
+	position:absolute;
+	display:block;
+	visibility:hidden;
+	color:white;
+	top:350px;
+	left:200px;
+	width:120px;
+	/*background:url(../img/dqmenu_bottom.png) no-repeat left bottom;下の枠*/
+	font-size:20px!important;
+	padding-bottom:8px;
+}
+#todomenu li a{display:block;width:400px;text-indent:-9999px;}
+/*#todomenu .top{display:block;width:120px;height:8px;background:url(../img/dqmenu.png) no-repeat top left;text-indent:-9999px;} 下の枠*/
+/*#todomenu .menu01 a{height:30px;background:url(../img/sample.png) no-repeat 0 -10px;}
+#todomenu .menu02 a{height:40px;background:url(../img/sample.png) no-repeat 0 -40px;}*/

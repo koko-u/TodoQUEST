@@ -1,6 +1,7 @@
+
 //たたかうボタンプッシュ時の処理
 function battleBTN_pushed():void{
-	 
+	 $("#todomenu").css("visibility","visible")
 }
 
 //逃げるボタンプッシュ時の処理
